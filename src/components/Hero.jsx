@@ -44,7 +44,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,.44)_0%,rgba(0,0,0,.05)_35%,rgba(0,0,0,.54)_75%,#070707_100%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_5%,rgba(0,0,0,.52)_100%)]" />
 
-      <motion.div style={{ y: contentY }} className="container-flama relative z-10 flex min-h-[100svh] flex-col items-center justify-center pb-14 pt-24 text-center">
+      <motion.div style={{ y: contentY }} className="container-flama relative z-10 flex min-h-[100svh] flex-col items-center justify-center pb-14 pt-24 text-center sm:pb-32">
         <motion.p initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .55 }} className="mb-5 text-[.65rem] font-extrabold uppercase tracking-[.28em] text-white/70">
           La fiesta argentina · Born in Amsterdam
         </motion.p>
