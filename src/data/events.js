@@ -18,8 +18,8 @@ export default [
     city: 'Amsterdam',
     status: 'announcing',
     badge: 'Save the date',
-    cta: 'Tickets soon',
-    ticketUrl: '',
+    cta: 'Tickets',
+    ticketUrl: 'https://weeztix.shop/zdjbktw5',
     image: '/media/events/after-office-september-17.png',
   },
 ]

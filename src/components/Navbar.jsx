@@ -37,7 +37,7 @@ export default function Navbar() {
               {label}
             </Link>
           ))}
-          <a href="https://instagram.com/lafiestaflama" target="_blank" rel="noreferrer" className="button-primary !min-h-10 !px-5">
+          <a href="https://weeztix.shop/zdjbktw5" target="_blank" rel="noreferrer" className="button-primary !min-h-10 !px-5">
             Get tickets
           </a>
         </nav>
@@ -63,7 +63,7 @@ export default function Navbar() {
                 </motion.div>
               ))}
             </nav>
-            <a href="https://instagram.com/lafiestaflama" target="_blank" rel="noreferrer" className="button-primary mt-10">Get tickets <ArrowIcon diagonal /></a>
+            <a href="https://weeztix.shop/zdjbktw5" target="_blank" rel="noreferrer" className="button-primary mt-10">Get tickets <ArrowIcon diagonal /></a>
           </motion.div>
         )}
       </AnimatePresence>
