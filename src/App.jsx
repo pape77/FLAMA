@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import GalleryIndexPage from './pages/GalleryIndexPage'
 import GalleryDetailPage from './pages/GalleryDetailPage'
 import TermsPage from './pages/TermsPage'
+import TicketsPage from './pages/TicketsPage'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/gallery" element={<GalleryIndexPage />} />
           <Route path="/gallery/:slug" element={<GalleryDetailPage />} />
           <Route path="/terms-and-conditions" element={<TermsPage />} />
+          <Route path="/tickets" element={<TicketsPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

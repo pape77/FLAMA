@@ -5,7 +5,7 @@
  * FALLBACK block at the bottom of this file, and restore the section
  * copy comment in Events.jsx.
  */
-export default [
+const events = [
   {
     id: 'after-office-september-17',
     name: 'After Office',
@@ -40,6 +40,15 @@ export default [
     image: '/media/events/flama-gran-canaria-october-9.jpg',
   },
 ]
+
+export function getTicketsNav() {
+  if (events.length > 1) return { href: '/tickets', external: false }
+  const url = events[0]?.ticketUrl
+  if (url) return { href: url, external: true }
+  return { href: '/#agenda', external: false }
+}
+
+export default events
 
 /*
 FALLBACK — use this when there's no event announced yet

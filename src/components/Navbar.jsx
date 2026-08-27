@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
+import { getTicketsNav } from '../data/events'
 import { ArrowIcon } from './ui'
 
 const links = [
@@ -10,6 +11,22 @@ const links = [
   ['FAQ', '/#faq'],
   ['Contact', '/#contact'],
 ]
+
+function TicketsCta({ className, children, onClick }) {
+  const target = getTicketsNav()
+  if (target.external) {
+    return (
+      <a href={target.href} target="_blank" rel="noreferrer" className={className} onClick={onClick}>
+        {children}
+      </a>
+    )
+  }
+  return (
+    <Link to={target.href} className={className} onClick={onClick}>
+      {children}
+    </Link>
+  )
+}
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -37,9 +54,9 @@ export default function Navbar() {
               {label}
             </Link>
           ))}
-          <a href="https://weeztix.shop/zdjbktw5" target="_blank" rel="noreferrer" className="button-primary !min-h-10 !px-5">
+          <TicketsCta className="button-primary !min-h-10 !px-5">
             Get tickets
-          </a>
+          </TicketsCta>
         </nav>
 
         <button onClick={() => setOpen(!open)} className="relative z-20 grid h-11 w-11 place-items-center rounded-full border border-white/20 md:hidden" aria-expanded={open} aria-label={open ? 'Close navigation' : 'Open navigation'}>
@@ -63,7 +80,7 @@ export default function Navbar() {
                 </motion.div>
               ))}
             </nav>
-            <a href="https://weeztix.shop/zdjbktw5" target="_blank" rel="noreferrer" className="button-primary mt-10">Get tickets <ArrowIcon diagonal /></a>
+            <TicketsCta className="button-primary mt-10" onClick={() => setOpen(false)}>Get tickets <ArrowIcon diagonal /></TicketsCta>
           </motion.div>
         )}
       </AnimatePresence>
