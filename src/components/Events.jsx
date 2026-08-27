@@ -52,6 +52,9 @@ export default function Events() {
                 </div>
                 <div>
                   <h3 className="font-display text-[clamp(2.8rem,6vw,4.5rem)] leading-[.85] uppercase">{event.name}</h3>
+                  {event.subtitle && (
+                    <p className="mt-2 text-[.62rem] font-bold uppercase tracking-[.16em] text-white/55">{event.subtitle}</p>
+                  )}
                   <EventMeta event={event} />
                   <div className="mt-4">
                     {event.ticketUrl ? (

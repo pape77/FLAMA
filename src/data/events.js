@@ -25,6 +25,7 @@ export default [
   {
     id: 'flama-gran-canaria-october-9',
     name: 'FLAMA - Gran Canaria',
+    subtitle: 'In collaboration with Cuartango',
     date: 'Friday · 9 October 2026',
     weekday: 'Friday',
     day: '9',
