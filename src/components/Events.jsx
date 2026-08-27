@@ -42,16 +42,13 @@ export default function Events() {
         <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="The next chapter is coming. Be first to get the date, venue and ticket drop." />
         */}
         <div className="mt-12 space-y-5 md:mt-16">
-          {events.map((event, index) => (
+          {events.map((event) => (
             <motion.article key={event.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} whileHover={{ y: -4 }} className="group relative min-h-[34rem] overflow-hidden rounded-[2rem] border border-white/10 bg-[#121212] md:min-h-[32rem]">
               <img src={event.image} alt={`${event.name} in ${event.city}`} loading="lazy" className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,.92)_0%,rgba(0,0,0,.72)_48%,rgba(0,0,0,.28)_100%)]" />
               <div className="relative z-10 flex min-h-[34rem] max-w-3xl flex-col justify-between p-6 md:min-h-[32rem] md:p-12">
                 <div className="flex items-center justify-between">
                   <span className="rounded-full border border-[#d887b2]/60 bg-black/35 px-4 py-2 text-[.62rem] font-extrabold uppercase tracking-[.16em] text-[#f8c3dc] backdrop-blur-md">{event.badge}</span>
-                  {events.length > 1 && (
-                    <span className="font-display text-6xl leading-none text-white/25">{String(index + 1).padStart(2, '0')}</span>
-                  )}
                 </div>
                 <div>
                   <h3 className="font-display text-[clamp(2.8rem,6vw,4.5rem)] leading-[.85] uppercase">{event.name}</h3>
