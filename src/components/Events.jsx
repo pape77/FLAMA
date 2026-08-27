@@ -37,7 +37,7 @@ export default function Events() {
     <section id="agenda" className="section-pad bg-[#070707]">
       <div className="container-flama">
         {/* Active event copy */}
-        <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="After work, straight to the dancefloor. Save the date—the next FLAMA After Office lands this September." />
+        <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="Amsterdam in September, Gran Canaria in October. Save the dates—two nights, one fire." />
         {/* FALLBACK — no event announced yet
         <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="The next chapter is coming. Be first to get the date, venue and ticket drop." />
         */}

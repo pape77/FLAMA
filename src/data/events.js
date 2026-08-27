@@ -22,6 +22,22 @@ export default [
     ticketUrl: 'https://weeztix.shop/zdjbktw5',
     image: '/media/events/after-office-september-17.png',
   },
+  {
+    id: 'flama-gran-canaria-october-9',
+    name: 'FLAMA - Gran Canaria',
+    date: 'Friday · 9 October 2026',
+    weekday: 'Friday',
+    day: '9',
+    month: 'October',
+    year: '2026',
+    venue: 'Sala Alboroto',
+    city: 'Las Palmas',
+    status: 'announcing',
+    badge: 'Special Edition',
+    cta: 'Tickets',
+    ticketUrl: 'https://weeztix.shop/wuvyysuw',
+    image: '/media/events/flama-gran-canaria-october-9.jpg',
+  },
 ]
 
 /*
