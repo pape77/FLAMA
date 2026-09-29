@@ -7,22 +7,6 @@
  */
 const events = [
   {
-    id: 'after-office-september-17',
-    name: 'After Office',
-    date: 'Thursday · 17 September 2026',
-    weekday: 'Thursday',
-    day: '17',
-    month: 'September',
-    year: '2026',
-    venue: 'De Ebeling',
-    city: 'Amsterdam',
-    status: 'announcing',
-    badge: 'Save the date',
-    cta: 'Tickets',
-    ticketUrl: 'https://weeztix.shop/zdjbktw5',
-    image: '/media/events/after-office-september-17.png',
-  },
-  {
     id: 'flama-gran-canaria-october-9',
     name: 'FLAMA - Gran Canaria',
     subtitle: 'In collaboration with Cuartango',
@@ -38,6 +22,23 @@ const events = [
     cta: 'Tickets',
     ticketUrl: 'https://weeztix.shop/wuvyysuw',
     image: '/media/events/flama-gran-canaria-october-9.jpg',
+  },
+  {
+    id: 'flama-dia-de-los-muertos-october-31',
+    name: 'FLAMA stage - Fiesta Macumba (Dia de muertos)',
+    date: 'Saturday · 31 October 2026',
+    weekday: 'Saturday',
+    day: '31',
+    month: 'October',
+    year: '2026',
+    venue: 'Amaze',
+    city: 'Amsterdam',
+    status: 'announcing',
+    badge: 'Save the date',
+    cta: 'Tickets',
+    ticketUrl:
+      'https://shop.weeztix.com/4ae21f99-57e1-464d-b51c-55a76218c615/tickets?shop_code=aytgg666&original_referer=https%3A%2F%2Fwww.fiestamacumba.nl%2Fen%2Fevents%2Famaze-8%2F',
+    image: '/media/events/flama-dia-de-los-muertos-october-31.jpg',
   },
 ]
 

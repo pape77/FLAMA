@@ -229,6 +229,45 @@
     "section": "editions"
   },
   {
+    "slug": "after-office-04",
+    "title": "After Office #4",
+    "eyebrow": "17 September",
+    "folder": "after-office-04",
+    "coverFile": "15.jpg",
+    "photoCount": 110,
+    "externalUrl": "https://drive.google.com/drive/folders/1WKu621Qy6YHeFyUpS7KAtHUeBybCTfW6?usp=drive_link",
+    "images": [
+      "/media/galleries/after-office-04/01.jpg",
+      "/media/galleries/after-office-04/02.jpg",
+      "/media/galleries/after-office-04/03.jpg",
+      "/media/galleries/after-office-04/04.jpg",
+      "/media/galleries/after-office-04/05.jpg",
+      "/media/galleries/after-office-04/06.jpg",
+      "/media/galleries/after-office-04/07.jpg",
+      "/media/galleries/after-office-04/08.jpg",
+      "/media/galleries/after-office-04/09.jpg",
+      "/media/galleries/after-office-04/10.jpg",
+      "/media/galleries/after-office-04/11.jpg",
+      "/media/galleries/after-office-04/12.jpg",
+      "/media/galleries/after-office-04/13.jpg",
+      "/media/galleries/after-office-04/14.jpg",
+      "/media/galleries/after-office-04/15.jpg",
+      "/media/galleries/after-office-04/16.jpg",
+      "/media/galleries/after-office-04/17.jpg",
+      "/media/galleries/after-office-04/18.jpg",
+      "/media/galleries/after-office-04/19.jpg",
+      "/media/galleries/after-office-04/20.jpg",
+      "/media/galleries/after-office-04/21.jpg",
+      "/media/galleries/after-office-04/22.jpg",
+      "/media/galleries/after-office-04/23.jpg",
+      "/media/galleries/after-office-04/24.jpg",
+      "/media/galleries/after-office-04/25.jpg",
+      "/media/galleries/after-office-04/26.jpg"
+    ],
+    "cover": "/media/galleries/after-office-04/15.jpg",
+    "section": "after-office"
+  },
+  {
     "slug": "after-office-02",
     "title": "After Office #2",
     "eyebrow": "Weeknight heat",
@@ -300,7 +339,7 @@
     "folder": "fernet-branca",
     "coverFile": "03.jpg",
     "partner": "Fernet Branca",
-    "photoCount": 26,
+    "photoCount": 30,
     "images": [
       "/media/galleries/fernet-branca/01.jpg",
       "/media/galleries/fernet-branca/02.jpg",
@@ -327,7 +366,11 @@
       "/media/galleries/fernet-branca/23.jpg",
       "/media/galleries/fernet-branca/24.jpg",
       "/media/galleries/fernet-branca/25.jpg",
-      "/media/galleries/fernet-branca/26.jpg"
+      "/media/galleries/fernet-branca/26.jpg",
+      "/media/galleries/fernet-branca/27.jpg",
+      "/media/galleries/fernet-branca/28.jpg",
+      "/media/galleries/fernet-branca/29.jpg",
+      "/media/galleries/fernet-branca/30.jpg"
     ],
     "cover": "/media/galleries/fernet-branca/03.jpg",
     "section": "partners"
