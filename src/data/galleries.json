@@ -262,7 +262,10 @@
       "/media/galleries/after-office-04/23.jpg",
       "/media/galleries/after-office-04/24.jpg",
       "/media/galleries/after-office-04/25.jpg",
-      "/media/galleries/after-office-04/26.jpg"
+      "/media/galleries/after-office-04/26.jpg",
+      "/media/galleries/after-office-04/27.jpg",
+      "/media/galleries/after-office-04/28.jpg",
+      "/media/galleries/after-office-04/29.jpg"
     ],
     "cover": "/media/galleries/after-office-04/15.jpg",
     "section": "after-office"
@@ -339,7 +342,7 @@
     "folder": "fernet-branca",
     "coverFile": "03.jpg",
     "partner": "Fernet Branca",
-    "photoCount": 30,
+    "photoCount": 33,
     "images": [
       "/media/galleries/fernet-branca/01.jpg",
       "/media/galleries/fernet-branca/02.jpg",
@@ -370,7 +373,10 @@
       "/media/galleries/fernet-branca/27.jpg",
       "/media/galleries/fernet-branca/28.jpg",
       "/media/galleries/fernet-branca/29.jpg",
-      "/media/galleries/fernet-branca/30.jpg"
+      "/media/galleries/fernet-branca/30.jpg",
+      "/media/galleries/fernet-branca/31.jpg",
+      "/media/galleries/fernet-branca/32.jpg",
+      "/media/galleries/fernet-branca/33.jpg"
     ],
     "cover": "/media/galleries/fernet-branca/03.jpg",
     "section": "partners"
