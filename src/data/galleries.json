@@ -240,7 +240,7 @@
     "title": "FLAMA #1",
     "eyebrow": "Las Palmas",
     "folder": "flama-gran-canaria-1",
-    "coverFile": "15.jpg",
+    "coverFile": "04.jpg",
     "photoCount": 132,
     "externalUrl": "https://drive.google.com/drive/folders/16AqdY2683i2UAaHRkNm_h_2f_w4p1ia0?usp=drive_link",
     "images": [
@@ -266,11 +266,9 @@
       "/media/galleries/flama-gran-canaria-1/20.jpg",
       "/media/galleries/flama-gran-canaria-1/21.jpg",
       "/media/galleries/flama-gran-canaria-1/22.jpg",
-      "/media/galleries/flama-gran-canaria-1/23.jpg",
-      "/media/galleries/flama-gran-canaria-1/24.jpg",
-      "/media/galleries/flama-gran-canaria-1/25.jpg"
+      "/media/galleries/flama-gran-canaria-1/23.jpg"
     ],
-    "cover": "/media/galleries/flama-gran-canaria-1/15.jpg",
+    "cover": "/media/galleries/flama-gran-canaria-1/04.jpg",
     "city": "Gran Canaria",
     "section": "editions"
   },
