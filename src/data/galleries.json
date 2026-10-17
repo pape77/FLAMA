@@ -29,6 +29,7 @@
       "/media/galleries/flama-13/19.jpg"
     ],
     "cover": "/media/galleries/flama-13/02.jpg",
+    "city": "Amsterdam",
     "section": "editions"
   },
   {
@@ -57,6 +58,7 @@
       "/media/galleries/flama-12/15.jpg"
     ],
     "cover": "/media/galleries/flama-12/09.jpg",
+    "city": "Amsterdam",
     "section": "editions"
   },
   {
@@ -86,6 +88,7 @@
       "/media/galleries/flama-11/16.jpg"
     ],
     "cover": "/media/galleries/flama-11/12.jpg",
+    "city": "Amsterdam",
     "section": "editions"
   },
   {
@@ -130,6 +133,7 @@
       "/media/galleries/flama-10/31.jpg"
     ],
     "cover": "/media/galleries/flama-10/27.jpg",
+    "city": "Amsterdam",
     "section": "editions"
   },
   {
@@ -169,6 +173,7 @@
       "/media/galleries/flama-09/26.jpg"
     ],
     "cover": "/media/galleries/flama-09/26.jpg",
+    "city": "Amsterdam",
     "section": "editions"
   },
   {
@@ -196,6 +201,7 @@
       "/media/galleries/flama-08/14.jpg"
     ],
     "cover": "/media/galleries/flama-08/14.jpg",
+    "city": "Amsterdam",
     "section": "editions"
   },
   {
@@ -226,6 +232,46 @@
       "/media/galleries/flama-07/17.jpg"
     ],
     "cover": "/media/galleries/flama-07/12.jpg",
+    "city": "Amsterdam",
+    "section": "editions"
+  },
+  {
+    "slug": "flama-gran-canaria-1",
+    "title": "FLAMA #1",
+    "eyebrow": "Las Palmas",
+    "folder": "flama-gran-canaria-1",
+    "coverFile": "15.jpg",
+    "photoCount": 132,
+    "externalUrl": "https://drive.google.com/drive/folders/16AqdY2683i2UAaHRkNm_h_2f_w4p1ia0?usp=drive_link",
+    "images": [
+      "/media/galleries/flama-gran-canaria-1/01.jpg",
+      "/media/galleries/flama-gran-canaria-1/02.jpg",
+      "/media/galleries/flama-gran-canaria-1/03.jpg",
+      "/media/galleries/flama-gran-canaria-1/04.jpg",
+      "/media/galleries/flama-gran-canaria-1/05.jpg",
+      "/media/galleries/flama-gran-canaria-1/06.jpg",
+      "/media/galleries/flama-gran-canaria-1/07.jpg",
+      "/media/galleries/flama-gran-canaria-1/08.jpg",
+      "/media/galleries/flama-gran-canaria-1/09.jpg",
+      "/media/galleries/flama-gran-canaria-1/10.jpg",
+      "/media/galleries/flama-gran-canaria-1/11.jpg",
+      "/media/galleries/flama-gran-canaria-1/12.jpg",
+      "/media/galleries/flama-gran-canaria-1/13.jpg",
+      "/media/galleries/flama-gran-canaria-1/14.jpg",
+      "/media/galleries/flama-gran-canaria-1/15.jpg",
+      "/media/galleries/flama-gran-canaria-1/16.jpg",
+      "/media/galleries/flama-gran-canaria-1/17.jpg",
+      "/media/galleries/flama-gran-canaria-1/18.jpg",
+      "/media/galleries/flama-gran-canaria-1/19.jpg",
+      "/media/galleries/flama-gran-canaria-1/20.jpg",
+      "/media/galleries/flama-gran-canaria-1/21.jpg",
+      "/media/galleries/flama-gran-canaria-1/22.jpg",
+      "/media/galleries/flama-gran-canaria-1/23.jpg",
+      "/media/galleries/flama-gran-canaria-1/24.jpg",
+      "/media/galleries/flama-gran-canaria-1/25.jpg"
+    ],
+    "cover": "/media/galleries/flama-gran-canaria-1/15.jpg",
+    "city": "Gran Canaria",
     "section": "editions"
   },
   {

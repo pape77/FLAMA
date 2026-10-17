@@ -2,6 +2,21 @@ import { Link } from 'react-router-dom'
 import galleries from '../data/galleries.json'
 import { ArrowIcon, Reveal, SectionHeading } from '../components/ui'
 
+function cityGroups(items) {
+  const groups = []
+  for (const item of items) {
+    const name = item.city || 'Amsterdam'
+    const id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+    let group = groups.find((entry) => entry.id === id)
+    if (!group) {
+      group = { name, id, items: [] }
+      groups.push(group)
+    }
+    group.items.push(item)
+  }
+  return groups
+}
+
 const SECTIONS = [
   {
     id: 'editions',
@@ -66,11 +81,26 @@ export default function GalleryIndexPage() {
                   </h2>
                   <p className="mt-4 max-w-2xl text-sm leading-relaxed text-white/50 md:text-base">{section.copy}</p>
                 </Reveal>
-                <div className={`mt-10 grid gap-5 ${items.length > 1 ? 'md:grid-cols-2' : 'md:grid-cols-1 md:max-w-2xl'}`}>
-                  {items.map((gallery, index) => (
-                    <GalleryCard key={gallery.slug} gallery={gallery} index={index} />
-                  ))}
-                </div>
+                {section.id === 'editions' ? (
+                  <div className="mt-10 space-y-14">
+                    {cityGroups(items).map((group) => (
+                      <div key={group.id} id={group.id}>
+                        <h3 className="font-display text-4xl uppercase md:text-5xl">{group.name}</h3>
+                        <div className={`mt-6 grid gap-5 ${group.items.length > 1 ? 'md:grid-cols-2' : 'md:grid-cols-1 md:max-w-2xl'}`}>
+                          {group.items.map((gallery, index) => (
+                            <GalleryCard key={gallery.slug} gallery={gallery} index={index} />
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className={`mt-10 grid gap-5 ${items.length > 1 ? 'md:grid-cols-2' : 'md:grid-cols-1 md:max-w-2xl'}`}>
+                    {items.map((gallery, index) => (
+                      <GalleryCard key={gallery.slug} gallery={gallery} index={index} />
+                    ))}
+                  </div>
+                )}
               </section>
             )
           })}

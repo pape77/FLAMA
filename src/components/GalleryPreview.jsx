@@ -9,6 +9,20 @@ const SECTIONS = [
   { id: 'partners', title: 'Fernet Moments', limit: 1 },
 ]
 
+function cityGroups(items) {
+  const groups = []
+  for (const item of items) {
+    const name = item.city || 'Amsterdam'
+    let group = groups.find((entry) => entry.name === name)
+    if (!group) {
+      group = { name, items: [] }
+      groups.push(group)
+    }
+    group.items.push(item)
+  }
+  return groups
+}
+
 function GalleryCard({ gallery, index }) {
   return (
     <motion.div initial={{ opacity: 0, y: 25 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: (index % 2) * .08 }}>
@@ -41,8 +55,9 @@ export default function GalleryPreview() {
 
         <div className="mt-16 space-y-16">
           {SECTIONS.map((section) => {
-            const items = galleries.filter((gallery) => gallery.section === section.id).slice(0, section.limit)
+            const items = galleries.filter((gallery) => gallery.section === section.id)
             if (!items.length) return null
+            const groups = section.id === 'editions' ? cityGroups(items) : [{ name: null, items }]
 
             return (
               <div key={section.id}>
@@ -52,10 +67,20 @@ export default function GalleryPreview() {
                     View all <ArrowIcon />
                   </Link>
                 </Reveal>
-                <div className={`grid gap-4 ${items.length > 1 ? 'md:grid-cols-2' : 'md:grid-cols-1 md:max-w-3xl'}`}>
-                  {items.map((gallery, index) => (
-                    <GalleryCard key={gallery.slug} gallery={gallery} index={index} />
-                  ))}
+                <div className="space-y-10">
+                  {groups.map((group) => {
+                    const shown = group.items.slice(0, section.limit)
+                    return (
+                      <div key={group.name || section.id}>
+                        {group.name && <p className="mb-4 font-display text-3xl uppercase text-white">{group.name}</p>}
+                        <div className={`grid gap-4 ${shown.length > 1 ? 'md:grid-cols-2' : 'md:grid-cols-1 md:max-w-3xl'}`}>
+                          {shown.map((gallery, index) => (
+                            <GalleryCard key={gallery.slug} gallery={gallery} index={index} />
+                          ))}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             )
