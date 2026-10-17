@@ -340,7 +340,7 @@
     "folder": "fernet-branca",
     "coverFile": "03.jpg",
     "partner": "Fernet Branca",
-    "photoCount": 33,
+    "photoCount": 34,
     "images": [
       "/media/galleries/fernet-branca/01.jpg",
       "/media/galleries/fernet-branca/02.jpg",
@@ -374,7 +374,8 @@
       "/media/galleries/fernet-branca/30.jpg",
       "/media/galleries/fernet-branca/31.jpg",
       "/media/galleries/fernet-branca/32.jpg",
-      "/media/galleries/fernet-branca/33.jpg"
+      "/media/galleries/fernet-branca/33.jpg",
+      "/media/galleries/fernet-branca/34.jpg"
     ],
     "cover": "/media/galleries/fernet-branca/03.jpg",
     "section": "partners"

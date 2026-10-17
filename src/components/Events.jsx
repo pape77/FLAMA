@@ -37,7 +37,7 @@ export default function Events() {
     <section id="agenda" className="section-pad bg-[#070707]">
       <div className="container-flama">
         {/* Active event copy */}
-        <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="Gran Canaria on 9 October, then Día de Muertos in Amsterdam. Save the dates—two nights, one fire." />
+        <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="Día de Muertos at Amaze, Amsterdam. Save the date—31 October, one night, one fire." />
         {/* FALLBACK — no event announced yet
         <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="The next chapter is coming. Be first to get the date, venue and ticket drop." />
         */}
