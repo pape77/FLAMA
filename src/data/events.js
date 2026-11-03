@@ -7,21 +7,16 @@
  */
 const events = [
   {
-    id: 'flama-dia-de-los-muertos-october-31',
-    name: 'FLAMA stage - Fiesta Macumba (Dia de muertos)',
-    date: 'Saturday · 31 October 2026',
-    weekday: 'Saturday',
-    day: '31',
-    month: 'October',
-    year: '2026',
-    venue: 'Amaze',
+    id: 'next-flama',
+    name: 'The next FLAMA',
+    date: 'Date dropping soon',
+    venue: 'Secret venue',
     city: 'Amsterdam',
     status: 'announcing',
-    badge: 'Save the date',
-    cta: 'Tickets',
-    ticketUrl:
-      'https://shop.weeztix.com/4ae21f99-57e1-464d-b51c-55a76218c615/tickets?shop_code=aytgg666&original_referer=https%3A%2F%2Fwww.fiestamacumba.nl%2Fen%2Fevents%2Famaze-8%2F',
-    image: '/media/events/flama-dia-de-los-muertos-october-31.jpg',
+    badge: 'Announcement incoming',
+    cta: 'Follow for the drop',
+    ticketUrl: 'https://instagram.com/lafiestaflama',
+    image: '/media/photos/general/flama25-009.jpg',
   },
 ]
 

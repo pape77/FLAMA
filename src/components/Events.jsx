@@ -36,11 +36,8 @@ export default function Events() {
   return (
     <section id="agenda" className="section-pad bg-[#070707]">
       <div className="container-flama">
-        {/* Active event copy */}
-        <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="Día de Muertos at Amaze, Amsterdam. Save the date—31 October, one night, one fire." />
-        {/* FALLBACK — no event announced yet
+        {/* FALLBACK — no event announced yet */}
         <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="The next chapter is coming. Be first to get the date, venue and ticket drop." />
-        */}
         <div className="mt-12 space-y-5 md:mt-16">
           {events.map((event) => (
             <motion.article key={event.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} whileHover={{ y: -4 }} className="group relative min-h-[34rem] overflow-hidden rounded-[2rem] border border-white/10 bg-[#121212] md:min-h-[32rem]">
