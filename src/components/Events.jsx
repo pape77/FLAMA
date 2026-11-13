@@ -14,9 +14,9 @@ function EventMeta({ event }) {
     <div className="mt-4 grid gap-3 sm:grid-cols-2 sm:max-w-xl">
       <div className="rounded-[1rem] border border-[#d887b2]/35 bg-black/45 px-4 py-3.5 backdrop-blur-md">
         <p className="text-[.58rem] font-extrabold uppercase tracking-[.18em] text-[#f8c3dc]">When</p>
-        <div className="mt-2 flex items-end gap-3">
+        <div className="mt-2 flex items-baseline gap-3">
           <p className="font-display text-[clamp(2.8rem,8vw,4rem)] leading-none text-[#e95aaa]">{day}</p>
-          <div className="pb-1">
+          <div>
             <p className="font-display text-[clamp(1.8rem,5vw,2.6rem)] uppercase leading-[.9]">{month}</p>
             <p className="mt-1.5 text-[.62rem] font-bold uppercase tracking-[.14em] text-white/65">{dayLabel}{year ? ` · ${year}` : ''}</p>
             {event.time && <p className="mt-1 text-[.62rem] font-bold uppercase tracking-[.14em] text-white/65">{event.time}</p>}
