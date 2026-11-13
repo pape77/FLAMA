@@ -7,16 +7,22 @@
  */
 const events = [
   {
-    id: 'next-flama',
-    name: 'The next FLAMA',
-    date: 'Date dropping soon',
-    venue: 'Secret venue',
-    city: 'Amsterdam',
+    id: 'flama-gran-canaria-december-5',
+    name: 'FLAMA - Gran Canaria',
+    subtitle: 'In collaboration with Cuartango',
+    date: 'Saturday · 5 December 2026',
+    weekday: 'Saturday',
+    day: '5',
+    month: 'December',
+    year: '2026',
+    time: '23:00–06:00',
+    venue: 'Moma Club',
+    city: 'Las Palmas',
     status: 'announcing',
-    badge: 'Announcement incoming',
-    cta: 'Follow for the drop',
-    ticketUrl: 'https://instagram.com/lafiestaflama',
-    image: '/media/photos/general/flama25-009.jpg',
+    badge: 'Save the date',
+    cta: 'Tickets soon',
+    ticketUrl: '',
+    image: '/media/events/flama-gran-canaria-december-5.jpg',
   },
 ]
 

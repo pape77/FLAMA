@@ -19,6 +19,7 @@ function EventMeta({ event }) {
           <div className="pb-1">
             <p className="font-display text-[clamp(1.8rem,5vw,2.6rem)] uppercase leading-[.9]">{month}</p>
             <p className="mt-1.5 text-[.62rem] font-bold uppercase tracking-[.14em] text-white/65">{dayLabel}{year ? ` · ${year}` : ''}</p>
+            {event.time && <p className="mt-1 text-[.62rem] font-bold uppercase tracking-[.14em] text-white/65">{event.time}</p>}
           </div>
         </div>
       </div>
@@ -36,8 +37,11 @@ export default function Events() {
   return (
     <section id="agenda" className="section-pad bg-[#070707]">
       <div className="container-flama">
-        {/* FALLBACK — no event announced yet */}
+        {/* Active event copy */}
+        <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="Gran Canaria is back. Saturday 5 December at Moma Club, Las Palmas — 23:00 until 06:00." />
+        {/* FALLBACK — no event announced yet
         <SectionHeading eyebrow="Next up" title="Meet us in the night" copy="The next chapter is coming. Be first to get the date, venue and ticket drop." />
+        */}
         <div className="mt-12 space-y-5 md:mt-16">
           {events.map((event) => (
             <motion.article key={event.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} whileHover={{ y: -4 }} className="group relative min-h-[34rem] overflow-hidden rounded-[2rem] border border-white/10 bg-[#121212] md:min-h-[32rem]">
